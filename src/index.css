@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: rgb(8, 28, 88);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input{
+
+  width: 200px;
+  height: 26px;
+  padding: 2px;
+  color: red;
+  border: 2px solid blue;
+  font-size: medium;  
+  align-items: center;
+  text-align: center;  
+  margin-left: 380px;
+  margin-top: 50px;
+}
+
+h1{
+  text-align: center;
+  align-items: center;
+  text-transform: capitalize;
+  text-shadow: 0 2px 3px grey;
+  color: rgb(255, 174, 0) ;
+}
+
+.mapdiv{
+ 
+  background-color: rgb(233, 134, 21);
+  color: rgb(240, 243, 245);
+  border-style: solid;
+  border: 2px solid green;
+  box-shadow: 0 3px 3px green;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 100px;
+  margin: auto;
+  font-size: larger;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display:list-item;
+  position: relative;
+}
+
+hr{
+  color: rgb(112, 112, 194);
+  
+}
+
+.crossbtn{
+  
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 18px;
+  color: red;
+  font-weight: bold;
+  
+}
+
+#addBtn{
+
+  background-color: yellow;
+  color: green;
+  height: 30px;
+  width: 75px;
+  /* border: 2px solid blue  ; */
+  box-shadow: 5px 5px 5px gray;
+  font-weight: bold;
+  margin-left: 5px;
+  padding: 3px;
+  border-radius: 10px;
+  text-transform: capitalize;
 }
